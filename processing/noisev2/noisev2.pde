@@ -3,7 +3,7 @@ float yoff = 0.0;
 void setup() {
 size(800,500);
 background(255);
-lines = loadStrings("/Users/xuhuimin/Processing/metadata/female_cum.txt");
+lines = loadStrings("../../data/metadata/female_cum.txt");
 }
 
 
@@ -20,7 +20,7 @@ float xoff= 0;
 //rotate(PI/12);
 for (int x = 0; x < lines.length; x += 1) {
 // Map noise value (between 0 and 1) to y-value of canvas
-String[] pieces = split(lines[x], ',');
+String[] pieces = split(lines[0], ','); //String[] pieces = split(lines[x], ',');
 for (int j=0;j<pieces.length;j+=1000){
   float y = map(noise(xoff+j, yoff), 0, 1, 100, 500);
   // Set the vertex

@@ -27,7 +27,7 @@ void setup() {
   background(0);
   stroke(255);
   frameRate(2);
-  lines = loadStrings("/Users/graysonwen/projects/viz-of-gender-stereotypes-from-texts/data/metadata/female_cum.txt");
+  lines = loadStrings("../../data/metadata/female_cum.txt");
 }
 
 void draw() {
