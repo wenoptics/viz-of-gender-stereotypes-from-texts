@@ -46,6 +46,12 @@ Separated gender plots:
 
 Cluster filled with Perlin noise
 
+---
+
+![](out/anim-demo.gif)
+
+[Animated](./animation.ipynb) demo
+
 ## Data & References
 
 arXiv:[1811.04599](https://arxiv.org/abs/1811.04599) [cs.CL]
